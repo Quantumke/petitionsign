@@ -1,0 +1,315 @@
+.img-dis{
+height:60px;
+}
+.catalyst{
+height:300px;
+}
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#tooplate_wrapper {
+	width: 954px;
+	height: 753px;
+	margin: 50px auto 20px;
+	background: url(../images/tooplate_content_bg.jpg) top left no-repeat;
+}
+
+#tooplate_sidebar {
+	float: left;	
+	width: 296px;
+	padding: 80px 0 0;
+}
+
+#header {
+	width: 224px;
+	padding: 0 36px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#header h1 { 
+	margin: 0; 
+	padding: 0; 
+	height: 60px; 
+	display: block; 
+	text-indent: - 10000px; 
+}
+
+#menu {
+	width: 236px;
+	padding-left: 60px;
+}
+
+#content {
+	float: right;
+	width: 500px;
+	height: 600px;	
+	padding: 80px 100px 80px 0;
+}
+
+.content_section {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #ccc
+}
+
+.last_section {
+	margin: 0;
+	padding-top: 140px;
+	border: 0;
+}
+.color-text{
+color:#AD6E2B;
+font-weight:bold;
+}
+
+#footer {
+	clear: both;
+	width: 900px;
+	padding: 0 27px;
+	margin: 0 auto;
+}
+
+#footer_left { 
+	float: right;
+	width: 300px;
+	text-align: right
+}
+
+#footer a {
+	color: #bbb;
+}
+
+#social_box {
+	float: left;
+	height: 85px;
+	padding: 0;
+	text-align: right;
+}
+
+#social_box a {
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px; height: 60px;
+}
+
+.scroll {
+    height: 640px;
+    width: 500px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height:;
+    width: 500px;
+	overflow: hidden;
+}
+.space{
+margin-top:30px;
+}
+
+ul.navigation {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul.navigation li {
+    display: inline;
+    margin: 0;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	height: 47px;
+	padding: 12px 0 0 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+    text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.menu_01 { background: url(../images/tooplate_menu_01.png) }
+.menu_02 { background: url(../images/tooplate_menu_02.png) }
+.menu_03 { background: url(../images/tooplate_menu_03.png) }
+.menu_04 { background: url(../images/tooplate_menu_04.png) }
+.menu_05 { background: url(../images/tooplate_menu_05.png) }
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #412810;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: 0
+}
+
+.scrollButtons.right {
+    right: 0
+}
+
+.hide {
+    display: none;
+}
+			
+         
+            
+            #myOverlay1 {
+                width:600px;
+                height:400px;
+            }
+  #myOverlay4 {
+                width:600px;
+                height:400px;
+            }
+            #myOverlay2 {
+                width:50%;
+                height:50%;
+            }
+            #myOverlay3 {
+                
+            }
+/* -=-=-=-=-=-=-=-=-=-= BEGIN OVERLAY =-=-=-=-=-=-=-=-=-=- */
+/* Lock Page */
+body.overlay-visible {
+  overflow: hidden;
+}
+#overlayContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#overlayContainer:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+#overlayContainer #overlayBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUU3MjBDRDI1OTJGMTFFNDgyMjJBRjM5MjIwNDA2MTAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUU3MjBDRDM1OTJGMTFFNDgyMjJBRjM5MjIwNDA2MTAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFRTcyMENEMDU5MkYxMUU0ODIyMkFGMzkyMjA0MDYxMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFRTcyMENEMTU5MkYxMUU0ODIyMkFGMzkyMjA0MDYxMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Puxx8C0AAAAPSURBVHjaYmBgYNgFEGAAAL8Au1we4coAAAAASUVORK5CYII=");
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  opacity: 0;
+}
+#overlayContainer #overlayFrame {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 16px;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  box-shadow: 0 0 16px #000000;
+  -moz-box-shadow: 0 0 16px #000000;
+  -webkit-box-shadow: 0 0 16px #000000;
+  text-align: left;
+  transition: top 0.5s, left 0.5s;
+  -moz-transition: top 0.5s, left 0.5s;
+  -webkit-transition: top 0.5s, left 0.5s;
+  outline: none;
+}
+#overlayContainer #overlayFrame:before {
+  content: "Dialog Start";
+  display: inline-block;
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+}
+#overlayContainer #overlayFrame .overlay-content {
+  outline: none;
+}
+#overlayContainer #overlayFrame #overlayClose {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: -12px;
+  top: -12px;
+  background-color: transparent;
+  cursor: pointer;
+  text-indent: -99999px;
+}
+#overlayContainer #overlayFrame #overlayClose[disabled] {
+  cursor: default;
+}
+#overlayContainer #overlayFrame #overlayClose[disabled]:after {
+  background-color: #888;
+}
+#overlayContainer #overlayFrame #overlayClose[disabled]:hover:after {
+  background-color: #888;
+}
+#overlayContainer #overlayFrame #overlayClose:after {
+  content: "X";
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  top: 50%;
+  margin-top: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  color: #FFF;
+  background-color: #000;
+  border: 1px solid #FFF;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  line-height: 26px;
+  text-indent: 0;
+}
+#overlayContainer #overlayFrame #overlayClose:hover:after {
+  background-color: #333;
+}
+#overlayContainer.slide-up #overlayFrame {
+  top: 100%;
+}
+#overlayContainer.slide-down #overlayFrame {
+  top: -100%;
+}
+#overlayContainer.slide-right #overlayFrame {
+  left: -100%;
+}
+#overlayContainer.slide-left #overlayFrame {
+  left: 100%;
+}
+#overlayContainer.visible #overlayBackground {
+  opacity: 1;
+}
+#overlayContainer.visible #overlayFrame {
+  top: 0;
+  left: 0;
+}
+/* -=-=-=-=-=-=-=-=-=-= END OVERLAY =-=-=-=-=-=-=-=-=-=- */
+
